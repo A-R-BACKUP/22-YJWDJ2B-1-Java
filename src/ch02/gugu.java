@@ -8,10 +8,15 @@ public class gugu {
         int b = 1;
         for (int i = 1; i <= 9; i++){
             for (int j = 2; j <= 9; j++){
-                System.out.print(f + " * " + b + " = " + (f * b)+ " ");
+                int result = (f * b);
+                if ((int)(Math.log10(result) + 1) == 2) {
+                    System.out.print(f + " * " + b + " = " + (result)+ "  ");
+                } else {
+                    System.out.print(f + " * " + b + " = " + (result) + "   ");
+                }
                 f++;
             }
-            if (f == 9){
+            if (f >= 2){
                 f = 2;
             }
             System.out.println();
