@@ -10,6 +10,14 @@ public class numplus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.printf("정수 입력: ");
-        while ()
+        int num = sc.nextInt();
+        int num_length = (int)(Math.log10(num) + 1);
+        int lc = 1;
+        int all = 0;
+        while (lc != num_length) {
+            all += (num / 10^(lc - 1)) % 10;
+            lc++;
+        }
+        System.out.println(all);
     }
 }
