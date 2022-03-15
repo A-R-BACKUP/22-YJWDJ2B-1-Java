@@ -14,7 +14,8 @@ public class numplus {
         int lc = 1;
         int all = 0;
         while (lc <= num_length) {
-            all += (num / 10^(lc - 1)) % 10;
+            all += (int)(num / 10^(lc - 1)) % 10;
+            System.out.println(lc + " all: " + all);
             System.out.println("lc: " + lc);
             lc++;
         }
