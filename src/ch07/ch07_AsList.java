@@ -1,4 +1,4 @@
-package ch07_surface;
+package ch07;
 
 /* 시험 */
 import java.util.*;

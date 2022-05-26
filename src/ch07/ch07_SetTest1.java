@@ -1,4 +1,4 @@
-package ch07_surface;
+package ch07;
 
 import java.util.Set;
 import java.util.HashSet;
